@@ -1,8 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * is_complete_recursive - helper function to check completeness
- * of binary tree recursively
+ * is_complete - checks completeness of binary tree recursively
  * @tree: pointer to the current node
  * @idx: index of the current node in the tree
  * @count: total number of nodes in the tree
@@ -59,5 +58,5 @@ int binary_tree_is_complete(const binary_tree_t *tree)
 	if (tree == NULL)
 		return (0);
 
-	return is_complete(tree, 0, binary_tree_size(tree));
+	return (is_complete(tree, 0, binary_tree_size(tree)));
 }
