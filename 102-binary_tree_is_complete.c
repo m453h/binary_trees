@@ -7,7 +7,7 @@
  * @idx: index of the current node in the tree
  * @count: total number of nodes in the tree
  *
- * Return: 1 if the tree is complete, 0 otherwise
+ * Return: 1 IF the tree is complete, ELSE 0
  */
 int is_complete(const binary_tree_t *tree, int idx, int count)
 {
@@ -29,7 +29,7 @@ int is_complete(const binary_tree_t *tree, int idx, int count)
  * binary_tree_size - measures the size of a binary tree
  * @tree: pointer to root node of the tree to measure the size
  *
- * Return: (size_t) - Size of the binary tree
+ * Return: (size_t) - size of the binary tree
  */
 size_t binary_tree_size(const binary_tree_t *tree)
 {
@@ -49,10 +49,10 @@ size_t binary_tree_size(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_is_complete - Checks if a binary tree is complete
+ * binary_tree_is_complete - checks if a binary tree is complete
  * @tree: Pointer to the root node of the tree to check for completeness
  *
- * Return: 1 if the tree is complete, 0 otherwise
+ * Return: (int) - 1 IF the tree is complete, ELSE 0
  */
 int binary_tree_is_complete(const binary_tree_t *tree)
 {
