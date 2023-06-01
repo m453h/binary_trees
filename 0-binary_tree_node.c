@@ -6,7 +6,6 @@
  * @value: value to put in the new node
  * Return: (binary_tree_t) - The created node on success ELSE NULL on failure
  */
-
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
 	binary_tree_t *node;
