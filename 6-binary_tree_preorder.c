@@ -3,7 +3,7 @@
 /**
  * binary_tree_preorder - Checks if a node is a root
  * @func: pointer to a function to call for each node
- * 
+ *
  * Return: (void) - Nothing
  */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
@@ -13,7 +13,7 @@ void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 	{
 		return;
 	}
-	
+
 	func(tree->n);
 
 	binary_tree_preorder(tree->left, func);
