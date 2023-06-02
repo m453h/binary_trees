@@ -2,11 +2,11 @@
 #include <limits.h>
 
 /**
- * is_bst - Utility function to check if a binary tree is a valid BST
- * @tree: Pointer to the root node of the tree
- * @min: Minimum value allowed for the current node
- * @max: Maximum value allowed for the current node
- * Return: 1 if tree is a valid BST, 0 otherwise
+ * is_bst - checks if a binary tree is a valid BST
+ * @tree: pointer to the root node of the tree
+ * @min: minimum value allowed for the current node
+ * @max: maximum value allowed for the current node
+ * Return: (int) 1 IF tree is a valid BST, ELSE 0
  */
 int is_bst(const binary_tree_t *tree, int min, int max)
 {
@@ -26,7 +26,7 @@ int is_bst(const binary_tree_t *tree, int min, int max)
 /**
  * binary_tree_is_bst - checks if a binary tree is a valid Binary Search Tree
  * @tree: Pointer to the root node of the tree
- * Return: 1 if tree is a valid BST, 0 otherwise
+ * Return: (int) 1 IF tree is a valid BST, ELSE 0
  */
 int binary_tree_is_bst(const binary_tree_t *tree)
 {
